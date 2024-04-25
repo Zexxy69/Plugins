@@ -13,14 +13,14 @@ from TelethonPbx.plugins import *
 
 ping_txt = """
 
-<b><i>╰•★★ 💫 🅟🅑🅧 🅑🅞🅣 💫 ★★•╯</b></i>
+<b><i>╰•★★ 💫 ꒒ꀎꈤꀸ ꊼ ꌃꂦ꓄ 💫 ★★•╯</b></i>
     ┏━━━━━━━━━🧸━━━━━━━━┓
     ➤ <i>𝐒ᴘᴇᴇᴅ •</i> <code>{}</code>
     ➤ <i>𝐔ᴘᴛɪᴍᴇ •</i> <code>{}</code>
     ➤ <i>𝐎ᴡɴᴇʀ •</i> {}
     
           ╔══════════════╗
-                <b><i>✬ <a href='https://t.me/ll_THE_BAD_BOT_ll'> 🇨🇦  𝗣𝗕𝗫  🌸 </a> ✬</i></b>
+                <b><i>✬ <a href='https://t.me/dexterkagrouphaibsdk> 🇨🇦  ꒒ꀎꈤꀸ ꊼ ꌃꂦ꓄  🌸 </a> ✬</i></b>
           ╚══════════════╝
     ┗━━━━━━━━━🧸━━━━━━━━┛
     """
@@ -38,7 +38,7 @@ async def pong(event):
                 pic_list.append(c)
         PIC = choice(pic_list)
     else:
-        PIC = "https://te.legra.ph/file/3187f598c0e978e3b4441.jpg"
+        PIC = "https://telegra.ph/file/5979bd620ddc59ad8bb5b.jpg"
     Pbx = await eor(event, "`·.·★ ᴘʙx ★·.·´")
     II_BAD_BBY_II, Pbx_USER, Pbx_mention = await client_id(event, is_html=True)
     uptime = await get_time((time.time() - StartTime))
