@@ -158,9 +158,7 @@ if Config.BOT_USERNAME and tbot:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or None
-            PBX_FIRST = f"👻 ꒒ꀎꈤꀸ ꊼ ꌗꍟꉓꀎꋪꀤ꓄ꌩ 👻 \n\n👋🏻𝐡ι {Pbx_mention}  \n💢ɮɛɦɛռ ӄɛ ʟօʀɛ ֆքǟʍ ʍǟȶ ӄʀ ռɦɨ ȶօɦ ʍǟǟ ƈɦօɖ ɖʊռɢǟ 
-ʍɛʀɛ քǟքǟ ǟɮɦɨ օʄʄʟɨռɛ ɦǟɨ ʍǟɨ ʊռӄǟ ɮɛȶǟ ɮօʟʀǟ ɦʊ
-ʝǟɖǟ ֆքǟʍ ӄǟʀɛɢǟ ȶօɦ ɮʊʀʀ ʍǟɨ ȶɦɛɛʟ ɖʊռɢǟ աǟքǟֆ [𝐎ωиєя](tg://settings) 💢"
+            PBX_FIRST = f"👻 ꒒ꀎꈤꀸ ꊼ ꌗꍟꉓꀎꋪꀤ꓄ꌩ 👻 \n\n👋🏻𝐡ι {Pbx_mention}  \n💢ɮɛɦɛռ ӄɛ ʟօʀɛ ֆքǟʍ ʍǟȶ ӄʀ ռɦɨ ȶօɦ ʍǟǟ ƈɦօɖ ɖʊռɢǟ ʍɛʀɛ քǟքǟ ǟɮɦɨ օʄʄʟɨռɛ ɦǟɨ ʍǟɨ ʊռӄǟ ɮɛȶǟ ɮօʟʀǟ ɦʊʝǟɖǟ ֆքǟʍ ӄǟʀɛɢǟ ȶօɦ ɮʊʀʀ ʍǟɨ ȶɦɛɛʟ ɖʊռɢǟ աǟքǟֆ [𝐎ωиєя](tg://settings) 💢"
             if CSTM_PMP:
                 PBX_FIRST += f"\n\n{CSTM_PMP}"
             a = gvarstat("PMPERMIT_PIC")
