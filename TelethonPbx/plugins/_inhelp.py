@@ -79,7 +79,7 @@ if Config.BOT_USERNAME and tbot:
             if a:
                 help_pic = a.split(" ")[0]
             else:
-                help_pic = "https://telegra.ph/file/4ab474cb621c444c697ae.jpg"
+                help_pic = "https://telegra.ph/file/5979bd620ddc59ad8bb5b.jpg"
             help_msg = f"📌 **{Pbx_mention}**\n\n✉️ __ᴘʟᴜɢɪɴs:__ `{len(CMD_HELP)}` \n📂 __ᴄᴏᴍᴍᴀɴᴅs:__ `{len(apn)}`\n📃 __ᴘᴀɢᴇ:__ 1/{veriler[0]}"
             if help_pic == "DISABLE":
                 result = builder.article(
@@ -129,7 +129,7 @@ if Config.BOT_USERNAME and tbot:
                         pic_list.append(c)
                 PIC = random.choice(pic_list)
             else:
-                PIC = "https://telegra.ph/file/fb88c96510315beb642ab.jpg"
+                PIC = "https://telegra.ph/file/5979bd620ddc59ad8bb5b.jpg"
             if PIC and PIC.endswith((".jpg", ".png")):
                 result = builder.photo(
                     PIC,
@@ -158,7 +158,9 @@ if Config.BOT_USERNAME and tbot:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or None
-            PBX_FIRST = f"👻 𝐏ʙ𝐗ʙᴏᴛ  𝐏ᴍ 𝐒ᴇᴄᴜʀɪᴛʏ 👻 \n\n👋🏻𝐇ყ {Pbx_mention}  \n❤️𝐎ɯɳҽɾ 𝐈ʂ 𝐎ϝϝℓιɳҽ 𝐒ꪮ 𝐏ℓꫀαʂꫀ 𝐃σɳ'ƚ 𝐒ραɱ🌪️ \n⚡𝐈ϝ 𝐘συ 𝐒ραɱ , 𝐘συ 𝐖ιℓℓ 𝐁ҽ 𝐁ℓσ¢ƙҽԃ 𝐀υƚσɱαƚι¢ℓℓу 🌸 \n\n🦋 𝐖αιт 𝐅σя  𝐌у 𝐂υтє [𝐎ωиєя](tg://settings) ❤️"
+            PBX_FIRST = f"👻 ꒒ꀎꈤꀸ ꊼ ꌗꍟꉓꀎꋪꀤ꓄ꌩ 👻 \n\n👋🏻𝐡ι {Pbx_mention}  \n💢ɮɛɦɛռ ӄɛ ʟօʀɛ ֆքǟʍ ʍǟȶ ӄʀ ռɦɨ ȶօɦ ʍǟǟ ƈɦօɖ ɖʊռɢǟ 
+ʍɛʀɛ քǟքǟ ǟɮɦɨ օʄʄʟɨռɛ ɦǟɨ ʍǟɨ ʊռӄǟ ɮɛȶǟ ɮօʟʀǟ ɦʊ
+ʝǟɖǟ ֆքǟʍ ӄǟʀɛɢǟ ȶօɦ ɮʊʀʀ ʍǟɨ ȶɦɛɛʟ ɖʊռɢǟ աǟքǟֆ [𝐎ωиєя](tg://settings) 💢"
             if CSTM_PMP:
                 PBX_FIRST += f"\n\n{CSTM_PMP}"
             a = gvarstat("PMPERMIT_PIC")
@@ -172,7 +174,7 @@ if Config.BOT_USERNAME and tbot:
                         pic_list.append(c)
                 PIC = random.choice(pic_list)
             else:
-                PIC = "https://telegra.ph/file/dbf0c4d5f85a5608c0598.jpg"
+                PIC = "https://telegra.ph/file/5979bd620ddc59ad8bb5b.jpg"
             if PIC and PIC.endswith((".jpg", ".png")):
                 result = builder.photo(
                     file=PIC,
@@ -213,7 +215,7 @@ if Config.BOT_USERNAME and tbot:
         elif event.query.user_id in auth and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**👻 🕊️⃝‌ᴘʙx ❤️ᥫ᭡፝֟፝֟ 👻 **",
+                text=f"**👻 ꒒ꀎꈤꀸ ꊼ ꌃꂦ꓄ 👻 **",
                 buttons=[
                     [Button.url("💫 𝐑ᴇᴘᴏ ✨", "https://github.com/Badhacker98/PbXbot/fork")],
                     [Button.url("𝐏ʙx 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/ll_THE_BAD_BOT_ll")],
@@ -223,7 +225,7 @@ if Config.BOT_USERNAME and tbot:
         else:
             result = builder.article(
                 "@ll_THE_BAD_BOT_ll",
-                text="""**Hey! This is [🕊️⃝‌ٖٖᴘʙx ❤️ᥫ᭡፝֟፝֟](https://t.me/ll_THE_BAD_BOT_ll) \nYou can know more about me from the links given below 👇**""",
+                text="""**Hey! This is [🕊️꒒ꀎꈤꀸ ꊼ ꌃꂦ꓄❤️ᥫ᭡፝֟፝֟](https://t.me/ll_THE_BAD_BOT_ll) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
                         Button.url("• Updates •", "https://t.me/ll_THE_BAD_BOT_ll"),
@@ -234,7 +236,7 @@ if Config.BOT_USERNAME and tbot:
                         Button.url("• Docs •", "https://Pbxbot.tech"),
                     ],
                     [
-                        Button.url("◈ PbxBot Network ◈", "https://t.me/ll_THE_BAD_BOT_ll"),
+                        Button.url("◈ LundxBot Network ◈", "https://t.me/ll_THE_BAD_BOT_ll"),
                     ],
                 ],
                 link_preview=False,
@@ -248,7 +250,7 @@ if Config.BOT_USERNAME and tbot:
         if event.query.user_id in auth:
             reply_popup = "This is for Other Users..."
         else:
-            reply_popup = "🔰 This is 𝐏ʙ𝐗ʙᴏᴛ PM Security to keep away unwanted retards from spamming PM !!"
+            reply_popup = "🔰 TU JANKE KYA KAREGA RE BSDK !!"
         await event.answer(reply_popup, cache_time=0, alert=True)
 
     @tbot.on(CallbackQuery(data=compile(b"req")))
@@ -311,7 +313,7 @@ if Config.BOT_USERNAME and tbot:
             if a:
                 help_pic = a.split(" ")[0]
             else:
-                help_pic = "https://telegra.ph/file/4ab474cb621c444c697ae.jpg"
+                help_pic = "https://telegra.ph/file/5979bd620ddc59ad8bb5b.jpg"
 
             if help_pic == "DISABLE":
                 await event.edit(
@@ -381,7 +383,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a PbxBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.",
+                "Hello! This help menu is not for you, you can make yourself a PbxBot and use your bot. Go to HAATHI KE GAAND MAI for more info.",
                 cache_time=0,
                 alert=True,
             )
@@ -412,7 +414,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a PbXBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.",
+                "Hello! This help menu is not for you, you can make yourself a LundXBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.",
                 cache_time=0,
                 alert=True,
             )
@@ -462,7 +464,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a PbxBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.",
+                "Hello! This help menu is not for you, you can make yourself a Lundxbot and use your bot. Go to KUTTE KI GAAND MAI for more info.",
                 cache_time=0,
                 alert=True,
             )
